@@ -49,6 +49,7 @@ sobre todo ello en un chat con Claude.
 <br clear="right"/>
 
 <img src="screenshots/calendario-asignaturas.png" width="260" align="left" />
+<img src="screenshots/entrega-detalle.png" width="260" align="left" />
 
 **Detalle de cada entrega**
 - Fecha de entrega y cuenta atrás.
@@ -69,8 +70,7 @@ sobre todo ello en un chat con Claude.
 - Notas parciales del campus virtual (cuestionarios, prácticas) en cada asignatura.
 - **"Cómo vas"**: el sistema de evaluación de cada asignatura (sacado automáticamente de su
   guía docente, con pesos y notas mínimas). Fijas un objetivo, por ejemplo aprobar o un 7,
-  apuntas las notas que ya sabes y te dice **qué media necesitas en lo que queda**. También
-  muestra si la asignatura permite usar IA.
+  apuntas las notas que ya sabes y te dice **qué media necesitas en lo que queda**.
 
 <br clear="both"/>
 
@@ -112,10 +112,11 @@ sobre todo ello en un chat con Claude.
 <br clear="right"/>
 
 ### Versión de escritorio
+<img src="screenshots/escritorio.png" width="100%" />
 
-En pantallas anchas la app cambia a un diseño de editor de código: un explorador lateral donde
-cada sección es un "archivo" (`inicio.md`, `calendario.ics`, `notas.csv`, `claude.chat`) y una
-barra de estado abajo.
+En pantallas anchas la app cambia a un menú lateral con las secciones agrupadas: la
+universidad (Calendario, Notas, Planes), el ordenador (dispositivos, envío de archivos,
+portapapeles) y los extras como la Biblioteca.
 
 ### Además
 - **Widget "Próximo"** en iPhone y Mac con las próximas entregas y la siguiente clase.
@@ -191,7 +192,7 @@ flowchart LR
 | Parte | Tecnología | Qué hace |
 |---|---|---|
 | **App** | Flutter (Dart), Material 3 con tema propio estilo terminal | iPhone y Mac con la misma base de código; diseño adaptable (móvil con dock flotante y paleta de comandos, escritorio con explorador lateral) |
-| **moodle-sync** | Go, servicio systemd en un VPS | Inicia sesión en el SSO de la universidad (incluido el código de un solo uso, leído del correo por IMAP), sincroniza entregas, cuestionarios, recursos y notas, saca el sistema de evaluación de las Guías Académicas y pide a Claude los resúmenes |
+| **moodle-sync** | Go, servicio systemd en un VPS | Inicia sesión en el SSO de la universidad (incluido el código de un solo uso, leído del correo por IMAP), sincroniza entregas, cuestionarios, recursos y notas, saca el sistema de evaluación de las guías docentes y pide a Claude los resúmenes |
 | **Base de datos** | Supabase: Postgres con Row Level Security, Realtime y triggers | Cada usuario solo ve sus filas; los triggers generan los avisos automáticamente |
 | **Agente** | C# / .NET 10, macOS y Windows | API HTTP local con un contrato de módulos (`IAgentModule`); conecta Claude (tool use) con las herramientas de cada módulo |
 | **IA** | Claude (Anthropic) | Resúmenes de enunciados, fechas recomendadas y el chat con herramientas |
