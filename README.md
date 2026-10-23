@@ -49,7 +49,7 @@ sobre todo ello en un chat con Claude.
 <br clear="right"/>
 
 <img src="screenshots/calendario-asignaturas.png" width="260" align="left" />
-<img src="screenshots/entrega-detalle.png" width="260" align="left" />
+<img src="screenshots/detalle-entrega.png" width="260" align="left" />
 
 **Detalle de cada entrega**
 - Fecha de entrega y cuenta atrás.
@@ -112,7 +112,7 @@ sobre todo ello en un chat con Claude.
 <br clear="right"/>
 
 ### Versión de escritorio
-<img src="screenshots/escritorio.png" width="100%" />
+<img src="screenshots/version-escritorio.png" width="100%" />
 
 En pantallas anchas la app cambia a un menú lateral con las secciones agrupadas: la
 universidad (Calendario, Notas, Planes), el ordenador (dispositivos, envío de archivos,
