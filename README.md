@@ -13,7 +13,7 @@ sobre todo ello en un chat con Claude.
   <img src="screenshots/inicio.png" width="23%" />
   <img src="screenshots/calendario-mes.png" width="23%" />
   <img src="screenshots/notas.png" width="23%" />
-  <img src="screenshots/chat.png" width="23%" />
+  <img src="screenshots/biblioteca.png" width="23%" />
 </p>
 
 ---
@@ -49,7 +49,6 @@ sobre todo ello en un chat con Claude.
 <br clear="right"/>
 
 <img src="screenshots/calendario-asignaturas.png" width="260" align="left" />
-<img src="screenshots/entrega-detalle.png" width="260" align="left" />
 
 **Detalle de cada entrega**
 - Fecha de entrega y cuenta atrás.
@@ -102,7 +101,6 @@ sobre todo ello en un chat con Claude.
 <br clear="right"/>
 
 ### Chat con Claude
-<img src="screenshots/chat.png" width="260" align="right" />
 
 - Un chat con Claude que tiene acceso a mis datos de la universidad: "¿qué tengo que entregar
   esta semana?", "¿cuánto necesito en el examen de X?", "apúntame una entrega para el
@@ -114,7 +112,6 @@ sobre todo ello en un chat con Claude.
 <br clear="right"/>
 
 ### Versión de escritorio
-<img src="screenshots/escritorio.png" width="100%" />
 
 En pantallas anchas la app cambia a un diseño de editor de código: un explorador lateral donde
 cada sección es un "archivo" (`inicio.md`, `calendario.ics`, `notas.csv`, `claude.chat`) y una
@@ -128,13 +125,12 @@ barra de estado abajo.
   (~1 s) cuando llega algo nuevo.
 
 ### Módulos
-<img src="screenshots/menu-modulos.png" width="260" align="right" />
 
 El núcleo es lo de arriba: Inicio, Calendario, Notas, el Chat y Ajustes. El resto de cosas que
 hace la app son **módulos**, extras que se enchufan y se quitan sin tocar el núcleo. En el
 móvil salen en el menú **Más**, una paleta de comandos (`> ejecutar módulo...`) que se puede
 filtrar escribiendo. En escritorio salen en las carpetas `dispositivo/` y `extra/` del
-explorador. *(Los míos están pixelados: son privados.)*
+explorador.
 
 Hay dos tipos:
 
