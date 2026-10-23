@@ -21,7 +21,8 @@ sobre todo ello en un chat con Claude.
 ## Qué hace
 
 ### Inicio
-<img src="screenshots/inicio.png" width="260" align="right" />
+<img src="screenshots/inicio.png" width="260" align="left" />
+<img src="screenshots/avisos.png" width="260" align="left" />
 
 - Resumen de la semana: cuántas entregas hay en los próximos 7 días, cuántas quedan
   pendientes y una barra de progreso de las entregadas.
@@ -31,7 +32,7 @@ sobre todo ello en un chat con Claude.
   que vencen pronto) y *Otros*. Los avisos se guardan aunque la app esté cerrada y también
   llegan como notificación push.
 
-<br clear="right"/>
+<br clear="both"/>
 
 ### Calendario
 <img src="screenshots/calendario-mes.png" width="260" align="right" />
@@ -73,6 +74,32 @@ sobre todo ello en un chat con Claude.
   muestra si la asignatura permite usar IA.
 
 <br clear="both"/>
+
+### Biblioteca
+<img src="screenshots/biblioteca.png" width="260" align="left" />
+<img src="screenshots/biblioteca-archivos.png" width="260" align="left" />
+
+- Los archivos de cada asignatura del campus virtual, ordenados por tema y por tipo
+  (apuntes, ejercicios, soluciones, evaluación), con buscador.
+- Las asignaturas del horario salen primero.
+- Los archivos se abren directamente desde el campus virtual con la sesión del propio
+  estudiante: la app no guarda copias.
+- *(Los nombres de los archivos están difuminados.)*
+
+<br clear="both"/>
+
+### Cuenta y privacidad
+<img src="screenshots/cuenta-privacidad.png" width="260" align="right" />
+
+- Términos de uso al crear la cuenta: el estudiante autoriza expresamente que el bot entre en
+  su nombre, y queda guardado qué versión aceptó y cuándo.
+- **Pausar el bot** en cualquier momento: deja de entrar en la cuenta de la universidad.
+- **Registro de actividad**: todo lo que el bot ha hecho en la cuenta (inicios de sesión,
+  avisos enviados, entregas), que el estudiante puede consultar y borrar.
+- Generador de códigos de verificación (2FA) automático o propio.
+- **Eliminar la cuenta** con todos sus datos.
+
+<br clear="right"/>
 
 ### Chat con Claude
 <img src="screenshots/chat.png" width="260" align="right" />
