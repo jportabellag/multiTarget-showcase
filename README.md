@@ -122,8 +122,8 @@ portapapeles) y los extras como la Biblioteca.
 - **Widget "Próximo"** en iPhone y Mac con las próximas entregas y la siguiente clase.
 - **Notificaciones** con la app cerrada (entregas nuevas, notas nuevas, posibles tareas) y
   recordatorios 24 h y 2 h antes de cada entrega.
-- **Funciona sin conexión** con la última copia de los datos, y se actualiza en tiempo real
-  (~1 s) cuando llega algo nuevo.
+- **Funciona sin conexión** con la última copia de los datos, y se actualiza sola
+  cuando llega algo nuevo.
 
 ### Módulos
 
