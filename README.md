@@ -2,7 +2,7 @@
 
 Mi asistente personal de la universidad: una app (iPhone y Mac) que junta en un solo sitio
 las entregas, el horario y las notas que normalmente están repartidos entre el campus virtual
-(eStudy/Moodle), el portal de notas (eSecretary) y el calendario de clases, y les añade IA:
+(Moodle), el portal de notas de la universidad y el calendario de clases, y les añade IA:
 resume cada enunciado, sugiere cuándo empezar, calcula qué nota necesito y responde preguntas
 sobre todo ello en un chat con Claude.
 
@@ -69,7 +69,7 @@ sobre todo ello en un chat con Claude.
   suspendidas y pendientes.
 - Notas parciales del campus virtual (cuestionarios, prácticas) en cada asignatura.
 - **"Cómo vas"**: el sistema de evaluación de cada asignatura (sacado automáticamente de su
-  Guía Académica, con pesos y notas mínimas). Fijas un objetivo, por ejemplo aprobar o un 7,
+  guía docente, con pesos y notas mínimas). Fijas un objetivo, por ejemplo aprobar o un 7,
   apuntas las notas que ya sabes y te dice **qué media necesitas en lo que queda**. También
   muestra si la asignatura permite usar IA.
 
@@ -165,8 +165,8 @@ notificación push.
 ```mermaid
 flowchart LR
     subgraph Universidad
-        M[eStudy · Moodle]
-        S[eSecretary · notas]
+        M[Moodle]
+        S[Portal de notas]
         H[Horario ICS]
     end
     subgraph VPS
